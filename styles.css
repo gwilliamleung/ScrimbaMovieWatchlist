@@ -1,4 +1,90 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #D1D5DB;
+}
+
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42.7947px;
+    line-height: 24px;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    align-self: center;
+}
+header{
+    background-image: url(background.jpg);
+    background-size:cover;
+    background-color: #404040bb;
+    background-blend-mode: multiply;
+    background-position: 50px 900px;
+    width:500px;
+    padding:100px;
+    padding-top:50px;
+    padding-bottom:0px;
+    margin: 0 auto;
+}
+
+.titlebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:175px;
+    color:#FFFFFF;
+    position:relative;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+}
+
+.userinputs{
+    display:flex;
+    height:35px;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-17.5px;
+}
+
+button{
+    background: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0px 6px 6px 0px;
+}
+
+#textSearch{
+    width:100%;
+    padding-left:10px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+section{
+    width:700px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    height:500px;
+    padding-top:50px;
+    background:white;
+}
+
+#movieList{
+    width:500px;
+    margin: 0 auto;
 }
